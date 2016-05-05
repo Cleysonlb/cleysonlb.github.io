@@ -1,0 +1,408 @@
+.header
+	background-color: #F4F4F4
+	border-bottom 1px solid $light-gray
+	position fixed
+	top 0
+	width 100%
+	transition top 0.1s ease-in-out
+	padding 20px 0px
+	z-index 2
+
+.header__logo a
+	color $primary-color
+	font-weight bold
+	font-size 24px
+	+to-width(450px)
+		font-size 15px
+		
+	+mobile(300px)
+		font-size 18px
+
+.nav-up
+	top -70px
+
+.header__logo
+	 column(3/12)
+
+.search-container
+	column(12/12)
+	margin-bottom 30px
+	text-align center
+	+mobile()
+		padding 0 2rem
+
+#search-input
+	margin-bottom 10px
+	background-color: #F4F4F4;
+	padding: 10px;
+	border-radius: 20px;
+	max-width: 500px;
+	width 100%
+	font-size: 18px;
+	color: #333
+	outline-style:none;
+	box-shadow:none;
+	border-color:transparent;
+	
+#results-container
+	font-size 20px
+	font-weight bold
+	color $color-black
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+
+#results-container li
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+	margin-bottom 10px
+
+#results-container li a
+	font-size 20px
+	font-weight bold
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+	color $color-black
+	&:hover
+		color $primary-color
+
+.header__menu
+	column(5/12 , offset: 3/12, gutter: 0)
+	+tablet()
+		column(4/12 , offset: 3/12)
+	+mobile()
+		column(4/12 , offset: 0/12)
+	+to-width(500px)
+		column(7/12 , offset: 0/12)
+
+.header__menu__nav
+	float right 
+
+.header__menu__item
+	float left
+	line-height 23px
+	margin-right 20px
+	font-size 18px
+
+.header__menu__item a
+	font-family 'Source Sans Pro', sans-serif
+	color #333333
+	font-weight bold
+	transition: color 0.5s ease;
+	&:hover
+		color #737373
+
+.search__button
+	float right
+	cursor pointer
+	font-size 20px
+
+.content__page
+	margin-top 100px
+
+.post__item:last-child
+	border 0 none
+	
+.post__item__title
+	margin 15px 0
+
+.post__item__link
+	font-size 30px
+	color $color-black
+	border-left 5px solid $color-black
+	padding-left 10px
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+	&:hover
+		color $primary-color
+		border-left 5px solid $primary-color
+
+.post__item__date
+	font-size 15px
+	color #737373
+	
+.post__item__description
+	font-size 18px
+	color color-black
+	line-height 1.58
+	letter-spacing .003em
+	margin 15px 0px
+	color $color-black
+	
+.list__tags
+	float left
+	+mobile()
+		width 60%
+	+tablet()
+		width 60%
+
+.list__tags--full
+	width 100%
+
+.title__tags
+	font-size 17px
+	color $color-black
+	float left
+	line-height 25px
+	font-weight bold
+	
+.list__tags__item
+	float left
+	margin-left 10px
+	border 1px solid #737373
+	font-size 15px
+	padding 5px
+	color #737373
+	border-radius 5px
+	margin-bottom 10px
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+	&:hover
+		background-color $primary-color
+		color #FFF
+		border 1px solid $primary-color
+
+
+.post__item__button
+	float right
+	border 1px solid $primary-color
+	font-size 20px
+	padding 5px
+	color #FFF
+	background-color $primary-color
+	border-radius 6px
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+	&:hover
+		background-color $secundary-color
+		color #FFF
+	
+
+
+.post__header
+	border-bottom 1px solid #eaeaea
+	margin-bottom 30px
+	padding-bottom 30px
+
+.post__header__title
+	font-size 50px
+	color $color-black
+
+.post-meta
+	color #737373
+	font-size 20px
+
+.post-content p
+	font-size 20px
+	color $color-black
+	line-height 1.6
+	letter-spacing .003em
+	margin 40px 0
+	
+.post-content a
+	-webkit-transition: all 1.0s ease;
+	-moz-transition:  all 1.0s ease;
+	-o-transition: all 1.0s ease;
+	transition:  all 1.0s ease;
+	color #4ea1d3
+	&:hover
+		color #2D6588
+
+.post-content h3
+	color $color-black
+	font-size 35px
+	margin 40px 0
+
+.post-content img
+	width 100%
+	height auto
+
+.footer
+	background-color: $light-gray
+
+.footer__about
+	padding 30px 0
+	text-align center
+	+tablet()
+		padding 30px 1rem
+	+mobile()
+		padding 30px 1rem
+
+.footer__about__photo img
+	border-radius 50%
+
+.about__page
+	padding-bottom 50px
+
+.about__page__title
+	font-size 45px
+	color #333
+	margin 40px 0
+
+.about__page__photo
+	text-align center
+
+.post-content .about__page__photo img
+	border-radius 50%
+	width 150px
+	height 150px
+
+.post-content .about__page__item
+	font-family 'Source Sans Pro', sans-serif
+	text-rendering optimizeLegibility
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+	color #333
+	font-size 20px
+	margin-bottom 10px
+
+.about__page__item:before
+	content '●'
+	padding-right 10px
+
+.footer__about__text
+	font-size 1rem
+	letter-spacing 0.3px
+	line-height 20px
+	color #292929
+	font-family 'Source Sans Pro', sans-serif
+	text-rendering optimizeLegibility
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+
+.footer__about__text--description
+	font-size 1rem
+	letter-spacing 0.3px
+	line-height 20px
+	color #292929
+	font-family 'Source Sans Pro', sans-serif
+	text-rendering optimizeLegibility
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+
+.footer__about__text--description a, .footer__about__text--description i
+	color #e74c3c
+	
+.social
+	font-size 30px
+	margin-right 10px
+	color #292929
+	transition: color 0.5s ease;
+
+.social--about
+	font-size 30px
+	margin-left 10px
+	color #292929!important
+	transition: color 0.5s ease;
+
+.social__twitter:hover
+	color #1DA1F2!important
+	
+.social__github:hover
+	color #4078C0!important
+	
+.social__linkedin:hover
+	color #1A85BC!important
+
+.social__codepen:hover
+	color #525252!important
+
+
+.content__share
+	padding 10px 0
+	border-top 1px solid #eaeaea
+
+.post-content .content__share a.share__item
+	color $color-black
+	font-size 30px
+	margin-left 15px
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+
+.post-content .content__share a.share__face:hover
+	color #3b5999
+
+.post-content .content__share a.share__twitter:hover
+	color #1da1f2
+
+.post-content .content__share a.share__gplus:hover
+	color #DC4E41
+
+.pagination__content
+	text-align center
+	margin 0
+	line-height 70px
+	margin-bottom 50px
+
+.page_number
+	text-align center
+	font-size 18px
+	color $color-black
+	font-weight bold
+
+.previous, .next
+	color #737373
+	font-size 70px
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+
+.previous
+	float left 
+	
+.next
+	float right
+
+.arrow_active
+	color $color-black
+	&:hover
+		color $primary-color
+
+
+.post-list-link
+	color $color-black
+	font-size 20px
+	display block
+	letter-spacing .003em
+	-webkit-transition: all 0.5s ease;
+	-moz-transition:  all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition:  all 0.5s ease;
+	&:hover
+		color $primary-color
+
+.entry-date
+	float right
+	+mobile()
+		display none
+
+.tag-title
+	color #333
+	font-size 40px
+	margin 40px 0
+	float left
+	width 100%
+	font-weight bold
+
+.post-list li
+	margin-bottom 20px
+	float left
+	width 100%
+
+.post-list li:last-child
+	margin 0
+

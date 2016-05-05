@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+
+  {% include header.html %}
+      
+    <div class="content__page">
+      <div class="center__small">
+
+        {{ content }}
+
+      </div>
+    </div>
+
+  {% if page.title == 'sobre mim' %}
+    {% include shotabout.html %}
+  {% else %}
+    {% include footer.html %}
+  {% endif%}
+
+
+  </body>
+
+</html>

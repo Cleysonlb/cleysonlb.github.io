@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Let's Do It"
+date: 2016-05-03 05:54:23
+categories: jekyll update
+image: do-it.png
+author: Cleyson Leal
+tags:
+- Motivacional
+- Inspiração
+- UX
+
+description: 'Do It - Começe, não deixe pra depois, simplesmente começe!'
+---
+
+ <img class="post__item__thumb" src="http://curatorsintl.org/images/assets/exhibition_slides/do-it.png">
+
+<h3>Introdução</h3>
+
+Começe! Não deixe pra depois, simplesmente comece, nao importa, não deixe pra la! =D
