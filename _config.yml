@@ -10,7 +10,7 @@ title: CleysonWebDev
 email: cleysonwebdev@gmail.com
 description: Blog pessoal de um desenvolvedor amante de tecnologia, criatividade, inovação e empreendedorismo
 baseurl: "" # the subpath of your site, e.g. /blog
-url:
+url: "http://cleysonlb.github.io/"
 twitter_username: Cleysonlb
 github_username:  Cleysonlb
 gems: [jekyll-paginate]
