@@ -8,6 +8,7 @@ author: Cleyson Leal
 tags:
 - Introdução
 - Jekyll
+- Gulp
 - Stylus
 - Jeet
 - Rupture
@@ -35,6 +36,7 @@ devo a comunidade, e espero agregar valor técnico e profissional para quem me a
 
 Utilizei tecnologias muito usadas para criar o blog, sendo elas: <br>
 <a href="https://jekyllrb.com/" target="_blank" title="Jekyll">Jekyll como gerador estático</a> <br>
+<a href="http://gulpjs.com/" target="_blank" title="Gulp">Gulp como Task Runner</a> <br>
 <a href="http://stylus-lang.com/" target="_blank" title="Stylus">Stylus como pré processador CSS</a> <br>
 <a href="http://jeet.gs/" target="_blank" title="Jeet">Jeet como sistema de grid</a> <br>
 <a href="https://github.com/jescalan/rupture" target="_blank" title="Rupture">Rupture para gerenciar meus media queries</a> <br>
