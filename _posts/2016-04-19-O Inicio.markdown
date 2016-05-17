@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "O Inicio"
+date: 2016-05-17 11:03:23
+categories: jekyll update
+image: inicio.jpg
+author: Cleyson Leal
+tags:
+- Introdução
+- Jekyll
+- Stylus
+- Jeet
+- Rupture
+- ITCSS
+- BEM
+
+description: 'Primeiro post do blog, uma breve introdução do porquê criei o blog.'
+---
+
+ <img class="post__item__thumb" src="/assets/img/post-images/inicio.jpg">
+
+<h3>Introdução</h3>
+
+Olá, vou começar esse post de introdução me apresentando, sou Cleyson tenho 23 anos e trabalho como front end a 3 anos.
+Iniciei minha carreira em uma pequena empresa aqui mesmo na minha cidade, Teresópolis, onde aprendi todo o básico do básico,
+após essa experiência passei a me apaixonar pela web cada dia mais, esse mundo de tecnologias com infinitas possibilidades!
+Hoje atuo como freelancer / Home-Office atendendo agências e empresas de todo o Brasil.
+
+<h3>O Blog</h3>
+
+Resolvi desenvolver esse blog para dividir a minha experiência com a comunidade, devolver a ela tudo que me proporcionou, basicamente quase tudo que aprendi
+devo a comunidade, e espero agregar valor técnico e profissional para quem me acompanhar! :D
+
+<h3>Tecnologias</h3>
+
+Utilizei tecnologias muito usadas para criar o blog, sendo elas: <br>
+<a href="https://jekyllrb.com/" target="_blank" title="Jekyll">Jekyll como gerador estático</a> <br>
+<a href="http://stylus-lang.com/" target="_blank" title="Stylus">Stylus como pré processador CSS</a> <br>
+<a href="http://jeet.gs/" target="_blank" title="Jeet">Jeet como sistema de grid</a> <br>
+<a href="https://github.com/jescalan/rupture" target="_blank" title="Rupture">Rupture para gerenciar meus media queries</a> <br>
+e algumas metodologias como: <br>
+<a href="http://itcss.io/" target="_blank" title="ITCSS">ITCSS</a> <br>
+<a href="https://en.bem.info/methodology/" target="_blank" title="BEM">BEM</a> <br>
+Mais pra frente irei escrever posts e aprofundar sobre cada uma dessas tecnologias!

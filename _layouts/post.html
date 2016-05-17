@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post__header clearfix">
+    <h1 class="post__header__title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta">
+        {% if page.date %}
+            <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">{{ page.date | date_to_string }}</time>
+        {% endif %}
+    <div class="list__tags list__tags--full">
+        <span class="title__tags">Tags:</span>
+        {% for tag in page.tags %}
+            <a class="list__tags__item" href="/tags/#{{tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+
+    {% include share-links.html %}
+
+    {% include comment.html %}
+  </div>
+
+</article>

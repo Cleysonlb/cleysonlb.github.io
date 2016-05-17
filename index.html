@@ -1,0 +1,55 @@
+---
+layout: simple
+---
+
+<div class="home">
+
+  <div class="post_list">
+
+{% if site.posts.size == 0 %}
+    <h4 class="default__error__message">Nem um post encontrado :(</h4>
+{% else %}
+    {% for post in paginator.posts %}
+      <div class="post__item clearfix">
+          <img class="post__item__thumb" src="{{ site.baseurl }}/assets/img/post-images/{{ post.image }}">
+          <h3 class="post__item__title"><a class="post__item__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <time class="post__item__date" datetime="{{ post.date | date_to_xmlschema }}">
+            {% include post-date.html %}
+          </time>
+            <p class="post__item__description">{{ post.description }}</p>
+            <div class="list__tags">
+              <span class="title__tags">Tags:</span>
+              {% for tag in post.tags %}
+                <a class="list__tags__item" href="/tags/#{{tag | slugify }}">{{ tag }}</a>
+              {% endfor %}
+            </div>
+            <a class="post__item__button" href="{{ post.url | prepend: site.baseurl }}">Leia Mais</a>
+
+      </div>
+
+    {% endfor %}
+
+{% endif %}
+
+{% if site.posts.size > 5 %}
+  <div class="pagination clearfix">
+<p class="pagination__content">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous arrow_active"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    {% else %}
+      <span class="previous"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+    {% endif %}
+    <span class="page_number">Pagina: {{ paginator.page }} de {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next arrow_active"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    {% else %}
+      <span class="next "><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+    {% endif %}
+</p>
+</div>
+
+{% endif %}
+
+  </div>
+
+</div>

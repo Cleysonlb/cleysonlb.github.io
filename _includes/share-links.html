@@ -1,0 +1,14 @@
+<section class="content__share">
+	
+	<p><span><strong>Compartilhe:</strong> </span>
+	<a title="Compartilhe no Facebook" class="share__item share__face" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+
+    <a title="Compartilhe no Twitter" class="share__item share__twitter" href="https://twitter.com/intent/tweet?text=&quot;{{ page.twitter_text }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+    <a title="Compartilhe no Google Plus" class="share__item share__gplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
+    onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+	</p>
+
+</section>
