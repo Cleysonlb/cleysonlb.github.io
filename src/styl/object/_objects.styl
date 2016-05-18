@@ -22,7 +22,7 @@
 	top -70px
 
 .header__logo
-	 column(3/12)
+	 column(4/12)
 	 +to-width(500px)
 		column(12/12)
 		text-align center
@@ -78,7 +78,8 @@
 		color $primary-color
 
 .header__menu
-	column(5/12 , offset: 3/12, gutter: 0)
+	column(4/12 , offset: 3/12, gutter: 0)
+	float right
 	+tablet()
 		column(12/12 , offset: 0/12)
 		text-align center
@@ -92,11 +93,16 @@
 	+tablet()
 		column(12/12)
 
+.header__menu__nav li:last-child
+	margin 0
+
 .header__menu__item
 	float left
 	line-height 23px
 	margin-right 20px
 	font-size 18px
+
+
 
 .header__menu__item a
 	font-family 'Source Sans Pro', sans-serif
