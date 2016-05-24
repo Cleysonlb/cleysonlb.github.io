@@ -1,0 +1,137 @@
+---
+layout: post
+title:  "Como se tornar um front end MVP"
+date: 2016-05-24 19:03:23
+categories: jekyll update
+image: front_end.jpg
+author: Cleyson Leal
+tags:
+- Introdução
+- HTML5
+- CSS3
+- JavaScript
+- Carreira
+
+description: 'Desenvolvedor front end, também conhecido como desenvolvedor client-side é o profissional que usa HTML, CSS e JavaScript para desenvolver sites e aplicações web de modo que o usuário possa ver e interagir com eles diretamente.'
+---
+
+<img class="post__item__thumb" src="/assets/img/post-images/front_end.jpg">
+
+<p>Como se tornar um front end MVP (minimum viable professional) ( trocadilho ), um guia para os iniciantes nessa linda arte de transformar layouts em interfaces usáveis.</p>
+
+<p>A ideia é criar um post simples e explicativo, sem muitos termos técnicos e palavras difíceis, para você que não esta no ramo não se confunda, então, sem mais delongas vamos la!</p>
+
+
+<p>Definição: "Desenvolvedor front end, também conhecido como desenvolvedor <code>client-side</code> é o profissional que usa <code>HTML</code>, <code>CSS</code> e <code>JavaScript</code> para desenvolver sites e aplicações web, de modo que o usuário possa ver e interagir com eles diretamente."</p>
+
+<h3>Comece do inicio</h3>
+
+<p>A base de um front end é o <code>HTML</code>, <code>CSS</code>, <code>JavaScript</code> é essa trindade que faz as coisas funcionarem na web e é por aqui que vamos começar!</p>
+
+<p><strong>- HTML (HyperText Markup Language)</strong></p>
+
+<p>Sem o <code>HTML</code> a web não existiria, é o <code>HTML</code> que defini a estrutura de um site, então, aprenda <code>HTML</code>, suas tags, semântica e organização.</p>
+
+<p><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHGlqEn4EE7dRUnPn4o_tKM0"
+target="_blank" title="HTML5 Tutorial">• HTML5 Tutorial</a></p>
+
+<p><a href="http://www.w3schools.com/html/html5_intro.asp"
+target="_blank" title="w3schools html5">• w3schools html5</a></p>
+
+<p><a href="https://www.codecademy.com/pt/learn/web"
+target="_blank" title="Codecademy">• Codecademy</a></p>
+
+<p><strong>- CSS (Cascading Style Sheets)</strong></p>
+
+<p><code>CSS</code> é o que da estilo ao site como cor, fonte, formato, espaçamento e diagramação, o <code>CSS</code> em si não demora muito para aprender, mas demora para se aperfeiçoar, existem metodologias que ajudam nisso como o <a href="https://en.bem.info/methodology/" title="BEM" target="_blank">BEM</a>, <a href="http://oocss.org/" title="OOCSS" target="_blank">OOCSS</a>, <a href="https://smacss.com/" title="SMACSS" target="_blank">SMACSS</a>.</p>
+
+<p><a href="http://www.w3schools.com/css/"
+target="_blank" title="w3schools CSS">• w3schools CSS</a></p>
+
+<p><a href="http://pt-br.learnlayout.com/"
+target="_blank" title="Aprenda CSS">• Aprenda CSS</a></p>
+
+<p><a href="https://www.codecademy.com/pt/learn/web"
+target="_blank" title="Codecademy">• Codecademy</a></p>
+
+<p><strong>- JavaScript</strong></p>
+
+<p><code>JavaScript</code> é o requisito principal para se tornar um bom front end, e a cada dia se torna mais necessário entender bem essa linguagem.
+Mas no básico você vai usar o <code>javascript</code> para instalar plug-ins (ferramentas) como slides por exemplo.</p>
+
+<p><a href="https://www.codecademy.com/learn/javascript"
+target="_blank" title="Codecademy Javascript">• Codecademy</a></p>
+
+<p><a href="http://blog.da2k.com.br/curso-javascript-ninja/"
+target="_blank" title="Javascript Ninja">• Javascript ninja</a></p>
+
+<h3>Editor de código</h3>
+
+<p>É aqui que vamos passar a maior parte do nosso trabalho, olhando o <code>editor de código</code>, escolher o editor que vai usar é algo bem importante pois ele vai agilizar o seu trabalho, e muito, com <code>autocomplete</code> (auto completar quando estiver escrevendo algo no seu código), <code>highlight</code> (dividindo seu código por cor) e etc... Não existe um melhor ou pior, existe aquele que melhor te atende! 
+Segue alguns editores mais famosos.</p>
+
+<p><a href="https://www.sublimetext.com/"
+target="_blank" title="Sublime text">• Sublime text</a></p>
+
+<p><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHEYF4EX3sAhVG2rTqCvLnsP"
+target="_blank" title="Aprender sublime text">• Aprenda a usar o Sublime text</a></p>
+
+<p><a href="https://atom.io/"
+target="_blank" title="Atom">• Atom</a></p>
+
+<p><a href="https://www.youtube.com/playlist?list=PLLnpHn493BHHf0w8uGu9NM8LPf498ZvL_"
+target="_blank" title="Aprender Atom">• Aprenda a usar o Atom</a></p>
+
+<p><a href="http://brackets.io/"
+target="_blank" title="Bracket">• Bracket</a></p>
+
+
+<h3>Ferramentas</h3>
+
+<p>O front end, principalmente, esta cercado de infinitas ferramentas e frameworks, vá se acostumando com isso <code>:p</code>
+mas vamos ver algumas dessas ferramentas que são o básico para se começar!</p>
+
+<p><strong>- Browser Dev Tools</strong></p>
+
+<p>Peça importante no trabalho de um front end, essa ferramenta te possibilita ver e modificar o código carregado pela página, ver se a página esta gerando algum erro e até mesmo ver o tempo de carregamento de cada arquivo do site, não é de mais?! <code>:D</code></p>
+
+<p><a href="https://developers.google.com/web/tools/chrome-devtools/"
+target="_blank" title="Chrome Dev Tools">• Chrome Dev Tools</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=XUgfwYzv-WQ&list=PLiGzvgwA5Gmgnq5vPjJxW52hDiX3ndL53"
+target="_blank" title="Aprenda Chrome dev tools">• Aprenda Chrome dev tools</a></p>
+
+<p><a href="http://getfirebug.com/"
+target="_blank" title="Firebug">• Firebug</a></p>
+
+<p><strong>- Terminal</strong></p>
+
+<p>Se você realmente quer ser um front end vai ter que mexer nessa telinha preta (ou de qualquer outra cor caso você tenha mudado) que muitos tem medo,
+hoje o <code>terminal</code> se tornou ferramenta de extrema importancia no dia a dia do front end, seja para controle de versão, rodar ferramentas de build, compilar pre processadores etc...</p>
+
+<p><a href="https://github.com/CodeMaxx/Terminal-Commands-Beginner/blob/master/Terminal%20Commands.md"
+target="_blank" title="Comandos básicos">• Comandos básicos do terminal</a></p>
+
+<p><strong>- Controle de Versão</strong></p>
+
+<p>Fazer vários backups para não perder o código atualizado nunca mais! Controle de versão facilita e muito essa tarefa de versionar seu projeto, se for trabalhar em equipe essa ferramenta é obrigatória! Os mais conhecidos são.</p>
+
+<p><a href="https://subversion.apache.org/"
+target="_blank" title="SVN">• SVN</a></p>
+
+<p><a href="https://git-scm.com/"
+target="_blank" title="Git">• Git</a></p>
+
+<p><a href="http://willianjusten.teachable.com/courses/git-e-github-para-iniciantes"
+target="_blank" title="Git e Github para iniciantes">• Git e Github para iniciantes</a></p>
+
+<h3>Conclusão</h3>
+
+<p>Neste post descrevi o básico do básico do front end, hoje nossa área é muito ampla, possibilitando trabalhar de diversas formas, com diversas tecnologias,
+mas não fique desanimado, mãos a obra e nunca deixe de estudar, se tiver oportunidade de ir a eventos VÁ!
+Caso tenha dúvidas ou problemas pode recorrer a <a href="https://www.facebook.com/groups/desenvolvimentoweb/" target="_blank" title="Grupo front end facebook">Comunidade</a>, que é a base do aprendizado e da troca de conhecimento na nossa área.
+Caso queira corrigir, adicionar ou tocar em algum ponto sobre o post, pode comentar aqui em baixo <code>:D</code></p>
+
+
+
+
