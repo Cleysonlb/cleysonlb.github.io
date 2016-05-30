@@ -120,6 +120,29 @@
 .content__page
 	margin-top 100px
 
+.center__small
+	-webkit-animation opacidade 2s 
+	-moz-animation opacidade 2s 
+	-o-animation opacidade 2s 
+	animation opacidade 2s 
+
+@-webkit-keyframes opacidade {
+  0%   { opacity: 0; margin-top -10px }
+  100% { opacity: 1; margin-top 10px }
+}
+@-moz-keyframes opacidade {
+  0%   { opacity: 0; margin-top -10px }
+  100% { opacity: 1; margin-top 10px }
+}
+@-o-keyframes opacidade {
+  0%   { opacity: 0; margin-top -10px }
+  100% { opacity: 1; margin-top 10px}
+}
+@keyframes opacidade {
+  0%   { opacity: 0; margin-top -10px }
+  100% { opacity: 1; margin-top 10px}
+}
+
 .post__item:last-child
 	border 0 none
 	
