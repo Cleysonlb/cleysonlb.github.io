@@ -7,19 +7,22 @@
 	transition top 0.1s ease-in-out
 	padding 20px 0px
 	z-index 2
-
-.header__logo a
-	color $primary-color
-	font-weight bold
-	font-size 24px
-	+to-width(450px)
-		font-size 15px
+	+mobile()
+		padding 10px 0
+	+tablet()
+		padding 10px 0
 		
-	+mobile(300px)
-		font-size 18px
+.header__logo
+	+mobile()
+		margin-bottom 10px
+	+tablet()
+		margin-bottom 10px
+
 
 .nav-up
 	top -70px
+	+mobile()
+		top -78px
 
 .header__logo
 	 column(4/12)
@@ -88,6 +91,7 @@
 
 .header__menu__nav
 	float right
+	margin-top 5px
 	+mobile()
 		column(12/12)
 	+tablet()
