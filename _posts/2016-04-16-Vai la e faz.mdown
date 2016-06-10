@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Vai la e faz"
+date: 2016-06-10 13:03:23
+categories: jekyll update
+image: faz.png
+author: Cleyson Leal
+tags:
+- Motivacional
+- Inspiração
+- Carreira
+
+description: 'se conseguir impactar uma pessoa, mudar o modo dela pensar, conseguir ajudar de alguma forma, já vale a pena.'
+---
+
+<img class="post__item__thumb" src="/assets/img/post-images/faz.png">
+
+<p>Motivado pelo pela live que o <a href="https://twitter.com/zenorocha" target="_blank">Zeno Rocha</a> fez eu decidi escrever este artigo.</p>
+
+<p>Bom, vou começar contando uma experiência minha. Sempre quis ter um blog para dividir um pouco do que sei sobre desenvolvimento web mas, deixava essa ideia de lado quando me surgia alguns medos e dúvidas, medo de ser julgado pelo que eu escreveria, medo de não ter impacto, dúvidas se eu realmente tinha algo a acrescentar para a comunidade, comentava com amigos que sempre me deram força para começar, o <a href="https://twitter.com/WarleyFranco" target="_blank">Warley</a> cansou de ouvir minhas reclamações.</p>
+
+<p>Um belo dia resolvi pegar e fazer, sem me preocupar muito, simplesmente fazer e ver até onde esse projeto poderia me levar, <code>e foi a melhor coisa que eu fiz</code>, vocês devem estar percebendo que sou novo nesse lance de escrever posts, pelo texto que estão lendo né?! Mas aí que tá o barato, se você não começar você nunca vai evoluir, nunca vai chegar a lugar algum!</p>
+
+<p>Se você tem vontade de ter um blog, vai lá e faz, todo mundo tem algo a acrescentar, algo pra dividir, foi como o <a href="https://twitter.com/zenorocha" target="_blank">Zeno</a> disse:</p>
+
+<p class="citacao">"se conseguir impactar uma pessoa, mudar o modo dela pensar, conseguir ajudar de alguma forma, já vale a pena"</p>
+
+
+<p>Às vezes nos falta arriscar, começar e ver até onde aquele projeto ou ideia pode chegar, e mesmo que não vá tão longe quanto o esperado, tenho certeza que você tirou alguma lição, algum aprendizado que pode e vai te ajudar em projetos futuros, não é um lance só de medos e dúvidas mas também de motivação.</p>
+
+
+<p>Espero que este artigo ajude de alguma forma, seja aquele empurrãozinho que faltava para por uma ideia em prática ou tirar aquele projeto do papel, tem algo a acrescentar? Borá continuar esse papo! Deixa seu comentário :)</p>
+
+
