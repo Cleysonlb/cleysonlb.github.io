@@ -15,7 +15,7 @@ description: 'se conseguir impactar uma pessoa, mudar o modo dela pensar, conseg
 
 <img class="post__item__thumb" src="/assets/img/post-images/faz.png">
 
-<p>Motivado pelo pela live que o <a href="https://twitter.com/zenorocha" target="_blank">Zeno Rocha</a> fez eu decidi escrever este artigo.</p>
+<p>Motivado pela <a href="https://www.facebook.com/zenorocha/videos/10207979686662968/?pnref=story" target="_blank">LIVE</a> que o <a href="https://twitter.com/zenorocha" target="_blank">Zeno Rocha</a> fez eu decidi escrever este artigo.</p>
 
 <p>Bom, vou começar contando uma experiência minha. Sempre quis ter um blog para dividir um pouco do que sei sobre desenvolvimento web mas, deixava essa ideia de lado quando me surgia alguns medos e dúvidas, medo de ser julgado pelo que eu escreveria, medo de não ter impacto, dúvidas se eu realmente tinha algo a acrescentar para a comunidade, comentava com amigos que sempre me deram força para começar, o <a href="https://twitter.com/WarleyFranco" target="_blank">Warley</a> cansou de ouvir minhas reclamações.</p>
 
