@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "#DevTips 01 - Sublime"
+date: 2016-06-13 12:03:23
+categories: jekyll update
+image: sublime.jpg
+author: Cleyson Leal
+tags:
+- DevTips
+- Produtividade
+- Sublime
+
+description: 'O sublime é uma ferramenta incrivel que nos ajuda a desenvolver nossos projetos com velocidade,
+hoje vamos conhecer alguns atalhos que vão alavancar sua produtividade na hora de escrever o seu código.'
+---
+
+<img class="post__item__thumb" src="/assets/img/post-images/sublime.jpg">
+
+
+<p>O sublime é uma ferramenta incrivel que nos ajuda a desenvolver nossos projetos com velocidade,
+hoje vamos conhecer atalhos que vão alavancar sua produtividade na hora de escrever o seu código.</p>
+
+<h3>Criando e Navegando entre as Abas</h3>
+
+<p><strong>Dividir a tela em 2 ou mais partes</strong></p>
+
+<p><code>⌘CMD + Alt + 1,2,3 (MAC)</code></p>
+<p><code>Alt + Shift + 1,2,3 (Windows)</code></p>
+
+<p>para fechar todas as abas</p>
+
+<p><code>⌘CMD + Alt + 1 (MAC)</code></p>
+<p><code>Alt + Shift + 1 (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/tabs.gif">
+
+<p><strong>para navegar entre as abas use o atalho</strong></p>
+
+<p><code>⌘CMD +  alt + seta esquerda / direita (MAC)</code></p>
+<p><code>⌘CMD + 1,2,3 (MAC)</code></p>
+<p><code>Ctrl + PgUp / PgDn (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/change_tab.gif">
+
+<h3>Selecionando, Duplicando e Mudando as coisas de lugar</h3>
+
+<p>As vezes selecionar com o mouse pode ser meio lento, uma solução rápida para isso é utilizando os atalhos:</p>
+
+<p><strong>Selecionar caractere por caractere</strong></p>
+
+<p><code>Shift + seta direita/esquerda (MAC / Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/caracter.gif">
+
+
+<p><strong>Selecionar uma linha</strong></p>
+
+<p><code>⌘CMD + Shift + direcional (MAC)</code></p>
+<p><code>⌘CMD + L (MAC)</code></p>
+<p><code>Ctrl + direcional + D (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/line.gif">
+
+<p><strong>Selecionar item por item iguais</strong></p>
+
+<p><code>⌘CMD + D (MAC)</code></p>
+<p><code>Ctrl + D (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/itens.gif">
+
+<p><strong>Selecionar todos os itens iguais</strong></p>
+
+<p><code>⌘CMD + Ctrl + G (MAC)</code></p>
+<p><code>Ctrl + G (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/allitens.gif">
+
+<p><strong>Selecione o elemento</strong></p>
+
+<p><code>⌘CMD + Shift +  J (MAC)</code></p>
+<p><code>Alt + F3 (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/element.gif">
+
+<p><strong>Duplicar linha atual</strong></p>
+
+<p><code>⌘CMD + Shift + D (MAC)</code></p>
+<p><code>Ctrl + seta pra cima + D (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/duplicar_linha.gif">
+
+<p><strong>Alterar posição da linha ou elemento que esta selecionado</strong></p>
+
+<p><code>⌘CMD + Ctrl + seta cima/baixo (MAC)</code></p>
+<p><code>Ctrl + Shift + seta cima/baixo (Windows</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/mudar_linha.gif">
+
+<p><strong>Criar multiplos cursores</strong></p>
+
+<p><code>⌘CMD + selecionar com o mouse (MAC)</code></p>
+<p><code>Ctrl + selecionar com o mouse (Windows)</code></p>
+
+<img class="gif" src="/assets/img/gifs/post_sublime/mult_cursor.gif">
+
+<p><strong>Leitura complementar</strong></p>
+
+<p><a href="http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_osx.html" target="_blank">Lista de Atalhos do Sublime para MAC</a></p>	
+<p><a href="http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html" target="_blank">Lista de Atalhos do Sublime para Windows</a></p>
+
+<p><strong>Bônus!</strong></p>
+
+<p>Para criar as gifs eu usei o <a href="http://www.cockos.com/licecap/" target="_blank">Licecap</a> dica do <a href="https://twitter.com/afonsopacifer" target="_blank">Afonso Pacifer</a> :D</p>
+<p>E um agradecimento especial ao <a href="https://twitter.com/diegoemeriq" target="_blank">Diego</a></p>
+
+<p>Você conhecia algum atalho? Quais você usa? Depois que passei a usar esses atralhos me tornei mais produtivo!
+Tem algo a acrescentar, corrigir ou alguma opinião sobre o post?!<br> <code>Comenta aqui em baixo!</code></p>
+
