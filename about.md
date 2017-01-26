@@ -7,7 +7,7 @@ permalink: /sobre/
 <div class="about__page">
 	
 <div class="about__page__photo">
-	<img src="{{ site.baseurl }}/assets/img/my_photo.png" width="150" height="150" alt="Foto do autor do blog">
+	<img src="{{ site.baseurl }}/assets/img/photonew.jpg" width="150" height="150" alt="Foto do autor do blog">
 </div>
 
 <p>Olá meu nome é <strong>Cleyson Leal</strong>, sou desenvolvedor <strong>front end</strong>, amante de design, criatividade, inovação, tecnologia e empreendedorismo,
